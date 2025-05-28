@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "http://localhost:5000/api/code", // Replace with actual backend
+    baseURL: "https://python-online-ide-5uuk.onrender.com/api/code", // Replace with actual backend
 });
 
 export const runCode = (code) => {
