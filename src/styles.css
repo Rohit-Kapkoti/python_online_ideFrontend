@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #121212;
+  color: #fff;
+}
+
+.app {
+  text-align: center;
+  padding: 1rem;
+}
+
+.editor-container {
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.terminal {
+  background: #1e1e1e;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  text-align: left;
+  height: 200px;
+  overflow-y: auto;
+}
+
+.run-button {
+  margin: 1rem 0;
+  padding: 0.6rem 1.2rem;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.header h2 {
+  margin-bottom: 1rem;
+}
